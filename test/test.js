@@ -32,7 +32,7 @@ describe('Complexity test', function () {
     tests.push(require(path.join(__dirname, 'linear', fn)));
   });
   tests.forEach(function(json) {
-    var scale = json.length + Object.keys(json[0]).length;
+    var scale = json.length + json[0].data.length;
     var toEval = JSON.stringify(json[0][0]);
     var linear;
     var col2row2;
