@@ -1,0 +1,25 @@
+{
+  "name": "53eae4fff4b616a82f025533",
+  "version": "0.0.1",
+  "description": "Benchmark to http://cnodejs.org/topic/53eae4fff4b616a82f025533",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test -R spec -r should -s 0",
+    "postinstall": "bin/postinstall.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idy/53eae4fff4b616a82f025533"
+  },
+  "author": "idy0013@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idy/53eae4fff4b616a82f025533/issues"
+  },
+  "homepage": "https://github.com/idy/53eae4fff4b616a82f025533",
+  "dependencies": {
+    "ape-algorithm": "0.0.8",
+    "async": "^0.9.0",
+    "yargs": "^1.3.1"
+  }
+}
